@@ -584,6 +584,7 @@ font-weight: 700;
     background-color: #fcfcfc;
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 24px;
 }
 
 .modal-close-btn {
@@ -616,4 +617,24 @@ font-weight: 700;
 .modal-close-btn:hover>.modal-close-icon,
 .modal-close-btn:focus>.modal-close-icon {
     fill: #ffffff;
+}
+
+.modal-title{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+        padding-top: 48px;
+        max-width: 360px;
+        margin-bottom: 16px;
+}
+.modal-inout{
+    width: 100%;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 4px;  
+        height: 40px;
+        background-color: transparent;
+        margin-bottom: 8px;
 }
