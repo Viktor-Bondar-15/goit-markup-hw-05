@@ -577,7 +577,7 @@ font-weight: 700;
             font-size: 12px;
             line-height: 2;
             letter-spacing: 0.04em;
-            background: #2e2f42;
+            background-color: #2e2f42;
             color: #fff;
             padding: 8px 212px 8px 16px;
             outline: none;
@@ -607,6 +607,7 @@ font-weight: 700;
                 padding: 8px 64px 8px 24px;
                 border-radius: 4px;
                 min-width: 165px;
+                font-weight: 500;
                 border: none;
                 position: relative;
                 transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -626,7 +627,6 @@ font-weight: 700;
 }
 
 /* M O D A L */
-
 
 
 .backdrop {
@@ -653,6 +653,9 @@ font-weight: 700;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
+    box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
     width: 408px;
     min-height: 584px;
     background-color: #fcfcfc;
