@@ -747,6 +747,10 @@ font-size: 12px;
 margin-bottom: 24px;
 }
 
+.modal-field-checkbox{
+    margin-bottom: 24px;
+}
+
 .modal-icon{
     fill: #2e2f42;
     position: absolute;
