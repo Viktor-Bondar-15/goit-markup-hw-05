@@ -740,7 +740,6 @@ font-size: 12px;
 
 .modal-field-wrap{
     position: relative;
-    margin-bottom: 8px;
 }
 
 .modal-field{
@@ -818,6 +817,15 @@ font-size: 12px;
     background-color: #404bbf;
         border: none;
         fill: #f4f4fd;
+    }
+
+    .modal-field-feedbeck{
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+        margin: 16px auto;
+        padding-left: 8px;
     }
 
 .modal-done{
